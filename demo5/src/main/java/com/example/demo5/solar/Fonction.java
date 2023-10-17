@@ -213,15 +213,12 @@ public class Fonction {
         }
     }
 
-//    public static void main(String[] args) throws Exception {
-////        signUpClient("james@gmail.com","j","itonylien","jamesadresse","tana102");
-////                ArrayList<TypeBatterie> liste = getListeCapaciteBatterie();
-//        Client liste =getClientById(1);
-////        for(int i=0; i<liste.size(); i++){
-////            System.out.println(liste.get(i).getId());
-////            System.out.println(liste.get(i).getValeur());
-////        }
-//        System.out.println(liste.getId());
-//        System.out.println(liste.getEmail());
-//    }
+    public static void main(String[] args) throws Exception {
+//        signUpClient("james@gmail.com","j","itonylien","jamesadresse","tana102");
+//                ArrayList<TypeBatterie> liste = getListeCapaciteBatterie();
+        Module liste = getModuleById(1);
+        System.out.println(liste.getId());
+        System.out.println(liste.getQrcode());
+        System.out.println(liste.getIdBatterie());
+    }
 }
